@@ -5,22 +5,22 @@ highlighter: pygments
 # Site settings
 title: "用數據看台灣"
 description: > # this means to ignore newlines until "email:"
-  身長在台灣的我們，很少從一個宏觀的角度看整個台灣的經濟、法律、交通、教育... ，而我們相信數據可以幫我們更了解我們身長在的這片土地上的一切。讓我們來用數據看台灣！
+  生長在台灣的我們，很少從一個宏觀的角度看整個台灣的經濟、法律、交通、教育... ，而我們相信數據可以幫我們更了解我們身長在的這片土地上的一切。讓我們來用數據看台灣！
 
-email: chilijung@gmail.com
+email: # chilijung@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/taiwanstat_thumb.png"
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/taiwanstat_cover1.png"
 
-name: 'Canner Group'
-author: 'Canner Group'
-author_image: "/assets/images/author.jpg"
+name: '用數據看台灣團隊'
+author: '用數據看台灣團隊'
+author_image: "/assets/images/taiwanstat_thumb.png"
 
 paginate:	5
 
-url: "http://" # the base hostname & protocol for your site
-baseurl: ""
+url: "http://taiwanstat.com" # the base hostname & protocol for your site
+baseurl: "http://taiwanstat.com"
 
 # social icons and sharing options
 social:

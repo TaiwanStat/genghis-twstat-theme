@@ -6,7 +6,7 @@ require "jekyll"
 
 
 # Change your GitHub reponame eg. "kippt/jekyll-incorporated"
-GITHUB_REPONAME = "chilijung/taiwan-statistic"
+GITHUB_REPONAME = "chilijung/taiwanstat.com"
 
 
 namespace :site do
