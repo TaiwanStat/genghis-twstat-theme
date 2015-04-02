@@ -34,9 +34,9 @@ social:
  - icon:	facebook
    url:	https://facebook.com/statTaiwan
    desc: 追蹤 Facebook 粉絲專業
-   share_url: https://www.facebook.com/sharer.php
-   share_title: ?t=用數據看台灣
-   share_link: "&amp;u="
+   share_url: https://www.facebook.com/dialog/feed
+   share_title: "?display=popup&caption="
+   share_link: "&link="
 
   # - icon:	github
   #   url:	https://github.com/dirkfabisch
