@@ -60,6 +60,12 @@ http://twitter.com/share?text=post_title&amp;url=post_url
 
 See [_config.yml](https://github.com/dirkfabisch/mediator/blob/master/_config.yml) for more examples.
 
+### Jekyll build
+
+```
+jekyll server -w # this will build the site and live view in http://localhost:4000/ 
+```
+
 ### Publish
 
 ```
