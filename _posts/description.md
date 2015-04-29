@@ -6,7 +6,7 @@ categories:
   - "electricity"
 tags: 
   - "power"
-image: /assets/images/taiwanstat_cover.png
+image: /assets/article_images/2015-04-29/power.png
 ---
 ### 前言
 
