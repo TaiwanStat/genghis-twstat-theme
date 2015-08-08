@@ -1,0 +1,41 @@
+<div class="teaserimage">
+    <div class="teaserimage-image" {{#if site.cover }}style="background-image: url({{ site.cover }})"{{/if}}>
+        用數據看台灣
+    </div>
+</div>
+
+
+<header class="blog-header">
+    {{#if site.logo }}
+      <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
+    {{/if }}
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <h2 class="blog-description">{{ site.description }}</h2>
+    <div class="custom-links">
+      <a href="/about.html/">關於</a> |
+      <a href="http://real.taiwanstat.com/" style="color: red">所有 "即時" 系統專案</a> |
+      <a href="http://real.taiwanstat.com/" style="color: red">所有 "統計" 系統專案</a>
+    </div>
+    <div class="fb-plugin">
+      <div class="fb-like-box" data-href="https://www.facebook.com/statTaiwan?fref=ts" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div>
+      <div class="fb-like" data-href="http://www.taiwanstat.com/" data-width="300px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+    </div>
+</header>
+
+
+<main class="content" role="main">
+    <div class="cf frame">
+      {{#each posts}}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ full_path }}" itemprop="url">{{ item.title }}</a></h2>
+            </header>
+            <div class="post-meta">
+              <time datetime="{{ item.date }}">{{ item.date }}</time>
+            </div>
+          </div>
+        </article>
+      {{/each}}
+    </div>
+</main>

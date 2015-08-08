@@ -28,7 +28,7 @@ genghis blog.json [-w option for watch changes]
 build pages
 
 ```
-canner-core build page.json
+canner-core build page.js
 ```
 
 [More Genghis Information](https://github.com/Genghis-canner/genghis)
