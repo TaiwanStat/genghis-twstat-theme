@@ -16,7 +16,7 @@ lists.forEach(function(p) {
 
 var posts = [{
   "layout": "./layouts/page.html",
-  "filename": "./_web/about.html",
+  "filename": "./about.html",
   "partials": ["./partials/head.js", "./partials/footer.js", "./partials/header.js", "./partials/javascripts.js"],
   "data": {
     "title": "關於我們",
@@ -39,7 +39,7 @@ var posts = [{
   }
 },{
   "layout": "./layouts/page.html",
-  "filename": "./_web/archive.html",
+  "filename": "./archive.html",
   "partials": ["./partials/head.js", "./partials/footer.js", "./partials/header.js", "./partials/javascripts.js"],
   "data": {
     "title": "所有專案",
@@ -62,7 +62,7 @@ var posts = [{
   }
 },{
   "layout": "./layouts/default.html",
-  "filename": "./_web/index.html",
+  "filename": "./index.html",
   "partials": ["./partials/head.js", "./partials/footer.js", "./partials/header.js", "./partials/javascripts.js", "./partials/index.js"],
   "data": {
     "title": "用數據看台灣首頁",
