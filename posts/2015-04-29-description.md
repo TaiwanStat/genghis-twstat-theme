@@ -1,13 +1,3 @@
----
-layout: post
-title:  "如何評估電力可靠度？解釋電力名詞與缺電現狀"
-date:   2015-04-29 19:33:12
-categories: 
-  - "electricity"
-tags: 
-  - "power"
-image: /assets/article_images/2015-04-29/power.png
----
 ### 前言
 
 <p style="font-size:18px;">
